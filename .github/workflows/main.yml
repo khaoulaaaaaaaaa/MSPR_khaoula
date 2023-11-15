@@ -15,7 +15,7 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         EC2_SSH_KEY: ${{ secrets.EC2_SSH_KEY }}
         DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-        source: "khaoula.war"
+        source: "boris.war"
         target: "/opt/tomcat/webapps"
 
   deploy:
